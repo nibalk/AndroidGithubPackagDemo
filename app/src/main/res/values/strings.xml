@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Traffic Images</string>
+
+    <string name="btn_close">Close</string>
+
+    <string name="title_activity_traffic_camera_map">Traffic Camera Map</string>
+    <string name="title_layout_bottom_sheet">Traffic Camera Photo</string>
+
+    <string name="msg_no_cameras_available">No traffic cameras available</string>
+    <string name="msg_no_camera_photos_available">No traffic cameras photos available</string>
+    <string name="msg_api_status_not_healthy">Network call fail due to: API status is not healthy</string>
+</resources>

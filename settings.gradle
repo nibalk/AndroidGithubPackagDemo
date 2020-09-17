@@ -1,0 +1,3 @@
+rootProject.name='Traffic Camera Map'
+include ':app'
+include ':framework'
