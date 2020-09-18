@@ -31,9 +31,9 @@ android {
 
 }
 
-kapt {
-    generateStubs = true
-}
+//kapt {
+//    generateStubs = true
+//}
 
 dependencies {
 
@@ -49,7 +49,7 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-runtime:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-common:2.2.0'
-    annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.2.0'
+    //annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
 
@@ -78,12 +78,14 @@ dependencies {
 
     //--- Dependency Injection - Dagger
     implementation "com.google.dagger:dagger:$rootProject.daggerVersion"
-    annotationProcessor "com.google.dagger:dagger-compiler:$rootProject.daggerVersion"
-    kapt "com.google.dagger:dagger-compiler:$rootProject.daggerVersion"
-    annotationProcessor "com.google.dagger:dagger-android-processor:$rootProject.daggerVersion"
+    //annotationProcessor "com.google.dagger:dagger-compiler:$rootProject.daggerVersion"
+    //kapt "com.google.dagger:dagger-compiler:$rootProject.daggerVersion"
+    //implementation "com.google.dagger:dagger-compiler:$rootProject.daggerVersion"
+    //annotationProcessor "com.google.dagger:dagger-android-processor:$rootProject.daggerVersion"
     implementation "com.google.dagger:dagger-android-support:$rootProject.daggerVersion"
-    annotationProcessor "com.google.dagger:dagger-android-processor:$rootProject.daggerVersion"
-    kapt "com.google.dagger:dagger-android-processor:$rootProject.daggerVersion"
+    //annotationProcessor "com.google.dagger:dagger-android-processor:$rootProject.daggerVersion"
+    //kapt "com.google.dagger:dagger-android-processor:$rootProject.daggerVersion"
+    implementation "com.google.dagger:dagger-android-processor:$rootProject.daggerVersion"
 
     //--- Logging
     implementation "com.jakewharton.timber:timber:$rootProject.timberVersion"
